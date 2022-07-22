@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,900&family=Kanit:wght@300&display=swap");
+@keyframes bigger {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+body {
+  width: 97.7vw;
+  margin: auto;
+  margin-top: 15px;
+  font-family: "Kanit", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: xx-large;
+  margin: 0;
+}
+
+.t {
+  text-align: center;
+  font-family: "Fira Sans" sans-serif;
+  font-size: large;
+}
+
+.viewbox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-items: space-around;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-items: space-around;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.n {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 60px;
+  font-size: medium;
+}
+
+.box {
+  background-color: rgba(9, 9, 245, 0.637);
+  width: 120px;
+  height: 120px;
+  z-index: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 2s ease;
+}
+
+.bigger {
+  background-color: darkblue;
+  color: white;
+  transform: scale(3);
+  z-index: 3;
+}
+.bigger p {
+  font-size: x-small;
+}
+
+.z .start {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
+.z .middle {
+  display: none;
+}
+.z .end {
+  display: none;
+}
+.z .wait {
+  display: none;
+}
+
+.y .start {
+  display: none;
+}
+.y .middle {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
+.y .end {
+  display: none;
+}
+.y .wait {
+  display: none;
+}
+
+.x .start {
+  display: none;
+}
+.x .middle {
+  display: none;
+}
+.x .end {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
+.x .wait {
+  display: none;
+}
+
+.w .start {
+  display: none;
+}
+.w .middle {
+  display: none;
+}
+.w .end {
+  display: none;
+}
+.w .wait {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */
