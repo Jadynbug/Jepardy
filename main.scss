@@ -17,6 +17,10 @@ body {
     margin: auto;
     margin-top: 15px;
     font-family: "Kanit", sans-serif;
+
+    & p {
+        color: white;
+    }
 }
 h1 {
     text-align: center;
